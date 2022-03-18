@@ -1,0 +1,388 @@
+p.error_message {
+    color: rgb(255 0 0);
+    display: initial;
+}
+
+.error-div-imp {
+    width: 100%;
+}
+
+.error-div {
+    width: 250px;
+}
+
+p#success-import {
+    background: rgb(35 40 45);
+    padding: 10px 20px;
+    border-top-left-radius: 15px;
+    border: 1px solid rgb(255 255 255);
+    overflow: scroll;
+    height: 200px;
+}
+
+p#success-import::-webkit-scrollbar {
+    width: 5px;
+}
+
+p#success-import::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(57 51 51 / 30%);
+}
+
+p#success-import::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+div.roles_checkboxes {
+    display: none;
+}
+
+input#export_specific_users,
+input#export_roles_caps {
+    margin-top: 2px;
+}
+
+.btn {
+    border-style: none;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in;
+}
+
+button#wp_import_users_roles {
+    padding: 12px 37px;
+}
+
+.btn-accept {
+    background-color: #1fab89;
+    color: #fff;
+}
+
+.btn-accept:hover,
+.btn-accept:focus {
+    background-color: #48bd8a;
+    transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    box-shadow: 0 4px 20px -2px #48bd8aa6;
+}
+
+p#field-message {
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+
+button#wp_import_users_roles {
+    background-color: #1fab89;
+}
+
+button#wp_import_users_roles:hover,
+button#wp_import_users_roles:focus {
+    box-shadow: 0 4px 20px -2px #48bd8aa6;
+}
+
+.js .input-file-trigger {
+    display: block;
+    width: 85px;
+    margin-left: 10%;
+    padding: 14px 70px;
+    background: #522546;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.js .input-file {
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+.js .input-file:hover+.input-file-trigger,
+.js .input-file:focus+.input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+    background: #88304e;
+    color: #ffffff;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.js .file-return {
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.js .file-return:not(:empty):before {
+    content: "Selected file: ";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wp-admin input[type=file] {
+    padding: 3px 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: none;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flexbox>div {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.dot-loader {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #1fab89;
+    position: relative;
+    -webkit-animation: 1.2s grow ease-in-out infinite;
+    animation: 1.2s grow ease-in-out infinite;
+}
+
+.dot-loader-exp {
+    background-color: #0092ed;
+}
+
+.dot-loader--2 {
+    -webkit-animation: 1.2s grow ease-in-out infinite 0.15555s;
+    animation: 1.2s grow ease-in-out infinite 0.15555s;
+    margin: 0 10px;
+}
+
+.dot-loader--3 {
+    -webkit-animation: 1.2s grow ease-in-out infinite 0.3s;
+    animation: 1.2s grow ease-in-out infinite 0.3s;
+}
+
+@-webkit-keyframes grow {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes grow {
+    0%,
+    40%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.loader div .dot-loader {
+    background-color: #1fab89;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #48bd8a;
+}
+
+input:checked+.import {
+    background-color: #48bd8a;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(20x);
+    -ms-transform: translateX(20px);
+    transform: translateX(13px);
+}
+
+.slider.round {
+    border-radius: 50px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+input:checked+.fields_checkbox {
+    background-color: #48bd8a;
+}
+
+.uiewp-settings-container {
+    background: rgb(255 255 255);
+    padding: 8px 20px;
+}
+
+.uiewp-settings-form-group {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+button.uiewp_export_fields {
+    padding: 14px 30px;
+    background-color: #48bd8a;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 2px 8px -1px rgb(21 25 36 / 32%);
+    transition: all 0.5s ease-in;
+    margin: 10px 0px;
+}
+
+button.uiewp_export_fields:hover {
+    transform: translateY(-2);
+    -ms-transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    box-shadow: 0 4px 20px -2px #48bd8aa6;
+}
+
+input#uiewp-input-field {
+    margin-top: 5px;
+    margin-left: 30%;
+    width: 80vw;
+    max-width: 400px;
+    font-size: 1.5em;
+    transition: padding 0.3s 0.2s ease;
+    border: none!important;
+    outline: none;
+}
+
+label.uiewp-label-field {
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 2%;
+    width: 350px;
+}
+
+input#uiewp-input-field:focus {
+    padding-bottom: 5px;
+    box-shadow: none!important;
+}
+
+input#uiewp-input-field:focus+.line:after {
+    transform: scaleX(1);
+}
+
+span.user_pass-enc {
+    font-style: italic;
+    color: rgb(139 143 147);
+    font-weight: 400;
+}
+
+.field {
+    position: relative;
+    width: 250px;
+}
+
+.field .line {
+    width: 140%;
+    height: 3px;
+    margin-left: 30%;
+    position: absolute;
+    bottom: -2px;
+    background: rgb(189 195 199);
+}
+
+.field .line:after {
+    content: " ";
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 3px;
+    transform: scalex(0);
+    transition: transform 0.3s ease;
+    background: #48bd8a;
+}
+
+label#switch {
+    margin-left: 10%;
+}
+
+label#uiewp-switch {
+    margin-top: 2%;
+}
+
+.export-container,
+.import-container {
+    background-color: white;
+    padding: 8px 20px;
+}
+
+.select2-field-users,
+.select2-field-roles {
+    margin-left: 10%;
+}
